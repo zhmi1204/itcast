@@ -1,0 +1,56 @@
+* {
+	font-size: 14px;
+}
+
+body {
+	background: #f6f6f6;
+}
+
+.main {
+	background: #f6f6f6;
+	border: 10px 10px 10px 10px;
+
+}
+
+.front_info {
+	background: #055C92;
+	overflow: hidden;
+	padding: 10px 10px 10px 10px;
+}
+
+.front_info>.left {
+	color: #ffffff;
+	width: 300px;
+	height: 20px;
+	float: left;
+}
+
+.front_info>.right {
+	color: #ffffff;
+	width: 400px;
+	height: 20px;
+	float: right;
+}
+
+.up_navi {
+	overflow: hidden;
+}
+
+.up_navi.left {
+	float: left;
+}
+
+.up_navi.right {
+	float: left;
+}
+
+.up_navi ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+
+.up_navi ul li {
+	float: left;
+}
