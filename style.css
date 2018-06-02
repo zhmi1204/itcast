@@ -18,6 +18,7 @@ body {
 	padding: 10px 10px 10px 10px;
 }
 
+/*float将li向左漂移，横排变为竖排*/
 .front_info>.left {
 	color: #ffffff;
 	width: 300px;
@@ -33,24 +34,101 @@ body {
 }
 
 .up_navi {
+	margin:0px 100px 0px 100px;
 	overflow: hidden;
 }
 
-.up_navi.left {
-	float: left;
-}
-
-.up_navi.right {
+.up_navi div a{
+	background-color: #F6F6F6;
+	padding: 15px;
+	margin: 20px 15px 15px 15px;
 	float: left;
 }
 
 .up_navi ul {
+	float: left;
 	list-style: none;
-	margin: 0px;
-	padding: 0px;
+	margin: 15px;
+	padding: 15px;
 	width: auto;
 }
 
 .up_navi ul li {
 	float: left;
 }
+
+.up_navi ul li a{
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+
+/*包括已点击的和未点击的*/
+.up_navi li a,.up_navi li a:visited{
+	background-color: #F6F6F6;
+	color: #272822;
+	text-decoration: none;
+}
+
+/*鼠标放在链接上时*/
+.up_navi li a,.up_navi li a:hover{
+	background-color: #D3CBCB;
+	color: #272822;
+	text-decoration: none;
+}
+
+/*鼠标点击元素时的样式*/
+.up_navi li a,.up_navi li a:active{
+	background-color: #F6F6F6;
+	color: #F5717C;
+	text-decoration: none;
+}
+
+.up_info{
+	position: relative;
+	width: 1260px;
+	height: 100%;
+	margin:0px 100px 10px 100px;
+	overflow: hidden;
+}
+
+.up_info>.img{
+	width: 860px;
+	margin: 10px;
+	height: 400px;
+	cursor: pointer;
+	float: left;
+}
+
+.up_info>.li{
+	width: 280px;
+	height: 400px;
+	margin: 10px;
+	float: right;
+}
+
+.middle_info{
+	position: relative;
+	width: 1260px;
+	height: 100%;
+	margin: 10px 100px 10px 100px;
+}
+
+.middle_info>.img{
+	width: 260px;
+	margin: 10px;
+	height: 400px;
+	cursor: pointer;
+	float: left;
+}
+
+.middle_info .tb{
+	width: 1080px;
+	text-decoration: none;
+}
+
+.middle_info>.tb>.tr{
+	width: 270px;
+}
+
+
