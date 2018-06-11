@@ -23,18 +23,18 @@
 </head>
 <body>
 	<div class="login">
-		<form class="formstyle" action="form_page.php">
+		<form class="formstyle" action="check.php" method="POST">
 			<fieldset>
 				<p>
 					<label>请输入账号：</label>
-					<input type="text" name="account" required="required" value="手机号/邮箱" onfocus="if(value=='手机号/邮箱'){value=''}" onblur="if(value==''){value='手机号/邮箱'}" />
+					<input type="text" name="username" required="required" value="手机号/邮箱" onfocus="if(value=='手机号/邮箱'){value=''}" onblur="if(value==''){value='手机号/邮箱'}" />
 				</p>
 				<p>
 					<label>请输入密码：</label>
-					<input type="text" name="passwd" required="required" value="您的密码" onfocus="if(value=='您的密码'){value=''}" onblur="if(value==''){value='您的密码'}" />
+					<input type="text" name="password" required="required" value="您的密码" onfocus="if(value=='您的密码'){value=''}" onblur="if(value==''){value='您的密码'}" />
 				</p>
 				<p>
-					<input type="submit" name="submit" value="登陆"/>
+					<input type="submit" name="login" value="登陆"/>
 				</p>
 				<p style="float:left";>
 					<a href="error.html">
